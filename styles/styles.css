@@ -30,6 +30,10 @@
 .light-gray {
   color: rgb(105, 102, 102);
 }
+main > section {
+  width: 1440px;
+  margin: 0 auto;
+}
 
 /* header style start here */
 .header {
@@ -95,4 +99,41 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+}
+/* banner section style end */
+/* team section style here */
+
+.team {
+  display: flex;
+  text-align: start;
+  justify-content: center;
+
+  margin-top: 85px;
+  gap: 70px;
+}
+.team-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.team-content h3 {
+  color: #ff900e;
+  font-size: 2.8rem;
+  margin-bottom: 24px;
+}
+.team-content p {
+  margin-bottom: 30px;
+}
+.team-button button {
+  padding: 20px 25px;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  border: none;
+}
+.team-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
