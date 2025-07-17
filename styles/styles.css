@@ -1,0 +1,64 @@
+/* g3-architects style here */
+/* font url */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* universal selectors */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/* work sans font here */
+.work-sans-fonts {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+/* shared style */
+.primary-color {
+  color: #ff900e;
+}
+
+/* dark-1 */
+.dark-gray {
+  color: rgba(19, 19, 19, 1);
+}
+
+/* dark-2 */
+.light-gray {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* header style start here */
+.header {
+  width: 1920px;
+  height: 1322px;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 230px;
+}
+.logo h3 {
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.nav-link ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.nav-link ul li a {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgba(66, 66, 66, 1);
+  text-decoration: none;
+}
+.nav-link ul li a:hover {
+  text-decoration: underline;
+  color: rgba(66, 66, 66, 1);
+}
