@@ -242,3 +242,26 @@ main > section {
   font-weight: 500;
   margin-bottom: 10px;
 }
+/* fact style end here */
+.sponspor {
+  margin-top: 180px;
+}
+.sponspor-heading-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.sponspor-heading-description {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sponspor-company-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.sponspor-company-image img {
+  filter: grayscale(100%);
+}
