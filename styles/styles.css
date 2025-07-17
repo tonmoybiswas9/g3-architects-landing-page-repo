@@ -137,3 +137,61 @@ main > section {
   align-items: flex-start;
   justify-content: center;
 }
+/* team style end here */
+/* feature section starts here */
+
+.feature {
+  display: flex;
+
+  justify-content: center;
+  gap: 135px;
+}
+.feature-content {
+  margin-top: 170px;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 2.8rem;
+
+  border-left: 5px solid #ff900e;
+  padding-left: 21px;
+  margin-bottom: 24px;
+}
+.feature-description {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.feature-box {
+  background-color: white;
+  box-shadow: 0px 4px 30px 0 #00000013;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.feature-box > div {
+  padding: 30px;
+}
+.box-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+.feature-image img {
+  margin-top: 130px;
+}
+.feature-btn button {
+  padding: 45px 42px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+.biggest-word {
+  font-weight: 800;
+  font-size: 4rem;
+}
+.small-word {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
