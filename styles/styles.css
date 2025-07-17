@@ -18,7 +18,7 @@
 }
 /* shared style */
 .primary-color {
-  color: #ff900e;
+  background-color: #ff900e;
 }
 
 /* dark-1 */
@@ -28,7 +28,7 @@
 
 /* dark-2 */
 .light-gray {
-  color: rgba(255, 255, 255, 1);
+  color: rgb(105, 102, 102);
 }
 
 /* header style start here */
@@ -42,6 +42,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px 230px;
+  margin-bottom: 100px;
 }
 .logo h3 {
   font-weight: 800;
@@ -61,4 +62,37 @@
 .nav-link ul li a:hover {
   text-decoration: underline;
   color: rgba(66, 66, 66, 1);
+}
+/* nav style end */
+/* banner style start here */
+.banner-content h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  text-align: center;
+}
+.banner-content p {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+.banner-btn button {
+  padding: 20px 25px;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  border: none;
+}
+.banner-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.banner-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
